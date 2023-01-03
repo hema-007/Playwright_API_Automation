@@ -3,18 +3,18 @@ import axios from 'axios';
 import { URLSearchParams } from 'url';
 import { EmailBody } from '../types/email';
 
-const keys = {
-  apikey: 'f2a055df-b232-42df-8238-b031b19e9257',
-  apisecret: '57796ed2-58a3-45b9-948b-2e60288e518c'
-};
-
-const requestOptions = {
-  headers: {
     Accept: 'application/json'
   }
 };
 
 export type Email = {
+const keys = {
+  apikey: 'Provide_MAILAPI_Key',
+  apisecret: 'Provide_MAILSECRET_Key'
+};
+
+const requestOptions = {
+  headers: {
   from: string;
   to: string;
   subject: string;
