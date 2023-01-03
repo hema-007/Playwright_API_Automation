@@ -1,0 +1,26 @@
+{
+  "name": "api_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinassembly/api_automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joinassembly/api_automation/issues"
+  },
+  "homepage": "https://github.com/joinassembly/api_automation#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.10.0",
+    "@playwright/test": "^1.29.0"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "log4js": "^6.7.1"
+  }
+}
